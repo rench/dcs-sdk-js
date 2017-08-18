@@ -9,6 +9,9 @@ function get(){
     if(unameAll.match(/Darwin/)){
         return "macos";
     }
+    if(unameAll.match(/NanoPi-NEO-Plus2/)){
+        return "npi";
+    }
     return "unknown";
 }
 
